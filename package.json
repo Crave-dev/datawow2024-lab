@@ -1,0 +1,17 @@
+{
+	"name": "datawow2024-lab",
+	"version": "1.0.0",
+	"description": "",
+	"workspaces": [
+		"apps/website",
+		"apps/api"
+	],
+	"scripts": {
+		"dev:web": "cd apps/website && npm run dev",
+		"dev:api": "cd apps/api && npm run start:dev",
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"keywords": [],
+	"author": "",
+	"license": "ISC"
+}
