@@ -1,4 +1,4 @@
-import { MessageIcon } from "../../../ui/icons"
+import { MessageIcon } from "@/ui/icons"
 import BackButton from "./_component/back-button"
 import PostComment from "./_component/comment"
 import CommentAction from "./_component/comment-action"

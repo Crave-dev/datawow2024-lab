@@ -1,4 +1,4 @@
-import { AvartarIcon } from "../../../../ui/icons"
+import { AvartarIcon } from "@/ui/icons"
 
 function PostComment() {
   return <div className="flex flex-col gap-[8px]">

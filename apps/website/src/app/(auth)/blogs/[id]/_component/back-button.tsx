@@ -1,7 +1,7 @@
 'use client'
 
+import { ArrowLeftIcon } from "@/ui/icons"
 import { useRouter } from "next/navigation"
-import { ArrowLeftIcon } from "../../../../ui/icons"
 
 function BackButton() {
   const router = useRouter()
