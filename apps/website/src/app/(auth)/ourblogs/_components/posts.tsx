@@ -1,8 +1,8 @@
 'use client'
 
 import { useState } from "react";
-import type { Post } from "../../../../utils/types";
-import { categories } from "../../../../utils/category";
+import type { Post } from "../../../utils/types";
+import { categories } from "../../../utils/category";
 import EditPostDialog from "@/ui/dialog/edit-blog";
 import BlogListItem from "@/ui/blog/list-item";
 
