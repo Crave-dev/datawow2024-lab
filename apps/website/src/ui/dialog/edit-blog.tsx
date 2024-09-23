@@ -40,7 +40,7 @@ function EditPostDialog(props: Props) {
         <button className="flex border text-success border-success rounded-[8px] items-center justify-center w-full lg:w-fit px-[8px] py-[14px] flex gap-[5px] font-semibold" onClick={() => setCateoryOpen(true)} ref={buttonRef}>
           <span>{props?.value?.category ? props?.value?.category?.text : 'Choose a community'}</span>
           <svg width="21" height="21" viewBox="0 0 21 21" fill="none" xmlns="http://www.w3.org/2000/svg">
-            <path d="M5.56738 8.11865L10.5674 13.1187L15.5674 8.11865" stroke="#49A569" stroke-width="1.67" stroke-linecap="round" stroke-linejoin="round"/>
+            <path d="M5.56738 8.11865L10.5674 13.1187L15.5674 8.11865" stroke="#49A569" strokeWidth="1.67" strokeLinecap="round" strokeLinejoin="round"/>
           </svg>
         </button>
         <Menu open={categoryOpen} onClose={() => setCateoryOpen(false)} anchorEl={buttonRef.current}>
